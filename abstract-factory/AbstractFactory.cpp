@@ -92,7 +92,7 @@ public:
 int main() {
     ConcreteFactoryX *factoryX = new ConcreteFactoryX();
     ConcreteFactoryY *factoryY = new ConcreteFactoryY();
-    
+
     ProductA *productA = factoryX->createProductA();
     std::cout << productA->getName() << std::endl;
 
