@@ -5,6 +5,7 @@ project(CppDesignPatterns)
 set(PATTERNS
     abstract-factory
     factory-method
+    template-method
 )
 
 foreach(_dir IN ITEMS ${PATTERNS})
@@ -14,7 +15,7 @@ foreach(_dir IN ITEMS ${PATTERNS})
     foreach(_file IN ITEMS ${_files})
 
         get_filename_component(_file_name
-                                ${_file} NAME
+                                ${_file} NAME_WLE
         )
 
         set(_project_name "${_file_name}")
