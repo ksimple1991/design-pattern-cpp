@@ -4,6 +4,7 @@ project(CppDesignPatterns)
 
 set(PATTERNS
     abstract-factory
+    bridge
     chain-of-resposibility
     factory-method
     flyweight
