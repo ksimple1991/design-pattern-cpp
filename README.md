@@ -1,4 +1,7 @@
+# C++设计模式
 
+## 什么是设计模式
+“每一个模式描述了一个在我们周围不断重复发生的问题，以及该问题的解决方案的核心。这样，你就能一次又一次地使用该方案而不必做重复劳动”。 ——Christopher Alexander
 
 ## 为什么要学习设计模式
 
@@ -55,5 +58,9 @@
 
 ## 参考
 
-[Wikipedia]: https://en.wikipedia.org/wiki/Software_design_pattern
-[design-patterns-cpp]: https://github.com/JakubVojvoda/design-patterns-cpp
+[wiki/Software_design_pattern](https://en.wikipedia.org/wiki/Software_design_pattern)
+
+[JakubVojvoda/design-patterns-cpp](https://github.com/JakubVojvoda/design-patterns-cpp)
+
+[liu-jianhao/Cpp-Design-Patterns](https://github.com/liu-jianhao/Cpp-Design-Patterns)
+
