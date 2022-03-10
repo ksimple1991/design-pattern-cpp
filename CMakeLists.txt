@@ -6,6 +6,7 @@ set(PATTERNS
     abstract-factory
     adapter
     bridge
+    builder
     chain-of-resposibility
     factory-method
     flyweight
