@@ -1,12 +1,13 @@
-### Iterator Pattern
+# Iterator Pattern
+## 定义
 > Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
 > 
 > 提供一种方法访问一个容器对象中的各个元素，而又不需暴露该对象的内部细节。
 
 迭代器模式(Iterator Pattern)，也叫作游标模式(Cursor Pattern)，用于遍历容器，比如数组、链表、树、图、跳表。它将集合对象的遍历操作从集合类中拆分出来，放在迭代器类中，让两者的职责更加单一。
 
-
-### 优势
+## 应用
+### 优点
 - 对于复杂的数据结构（比如树、图）来说，有各种复杂的遍历方式。如果客户端代码来实现遍历算法，势必增加开发成本，且容易写错
 - 遍历逻辑写到容器类中会增加容器类代码的复杂性
 - 每个迭代器独享游标信息，这样可以创建多个迭代器，同时对同一个容器遍历而互不影响
