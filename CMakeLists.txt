@@ -13,6 +13,7 @@ set(PATTERNS
     iterator
     observer
     prototype
+    proxy
     singletion
     state
     template-method
