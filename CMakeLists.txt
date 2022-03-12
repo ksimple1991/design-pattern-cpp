@@ -8,6 +8,7 @@ set(PATTERNS
     bridge
     builder
     chain-of-resposibility
+    facade
     factory-method
     flyweight
     iterator
