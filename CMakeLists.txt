@@ -17,6 +17,7 @@ set(PATTERNS
     proxy
     singletion
     state
+    strategy
     template-method
 )
 
