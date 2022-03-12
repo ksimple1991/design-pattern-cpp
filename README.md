@@ -23,14 +23,20 @@
 
 ## 设计模式
 
-### 创建型模式
+### 从目的对模式分类
+
+#### 创建型模式
+创建型（Creational）模式：将对象的部分创建工作延迟到子类或者其他对象，从而应对需求变化为对象创建时具体类型实现引来的冲击。
+
 - 工厂模式(Factory Pattern)
 - 抽象工厂模式(Abstract Factory Pattern)
 - 单例模式(Singleton Pattern)
 - 建造者模式(Builder Pattern)
 - 原型模式(Prototype Pattern)
 
-### 结构型模式
+#### 结构型模式
+结构型（Structural）模式：通过类继承或者对象组合获得更灵活的结构，从而应对需求变化为对象的结构带来的冲击。
+
 - 适配器模式
 - 桥接模式
 - 过滤器模式
@@ -40,8 +46,9 @@
 - 享元模式
 - 代理模式
 
+#### 行为型模式
+行为型（Behavioral）模式：通过类继承或者对象组合来划分类与对象间的职责，从而应对需求变化为多个交互的对象带来的冲击。
 
-### 行为型模式
 - 责任链模式
 - 命令模式
 - 解释器模式
@@ -55,6 +62,41 @@
 - 模板模式
 - 访问者模式
 
+### 从封装变化角度对模式分类
+
+- 组件协作
+  - Template Method
+  - Strategy
+  - Observer/Event
+- 单一职责
+  - Decorator
+  - Bridge
+- 对象创建
+  - Factory Method
+  - Abstract Factory
+  - Prototype
+  - Builder
+- 对象性能
+  - Singleton
+  - Flyweight
+- 接口隔离
+  - Facade
+  - Proxy
+  - Mediator
+  - Adapter
+- 状态变化
+  - Memento
+  - State
+- 数据结构
+  - Composite
+  - Iterator
+  - Chain of Resposibility
+- 行为变化
+  - Command
+  - Visitor
+- 领域问题
+  - Interpreter
+
 
 ## 参考
 
@@ -63,4 +105,8 @@
 [JakubVojvoda/design-patterns-cpp](https://github.com/JakubVojvoda/design-patterns-cpp)
 
 [liu-jianhao/Cpp-Design-Patterns](https://github.com/liu-jianhao/Cpp-Design-Patterns)
+
+[C++ 设计模式 李建忠](https://www.youtube.com/playlist?list=PLE0JTxLz7jTR2e8nAyV9vPIqH5NNxlI3N)
+
+[C++ 设计模式 (李建忠视频笔记)](https://miaopei.github.io/2016/07/16/Program-C/C++%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E6%9D%8E%E5%BB%BA%E5%BF%A0%E7%AC%94%E8%AE%B0/)
 
