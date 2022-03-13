@@ -12,6 +12,7 @@ set(PATTERNS
     factory-method
     flyweight
     iterator
+    memento
     observer
     prototype
     proxy
