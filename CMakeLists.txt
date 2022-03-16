@@ -20,6 +20,7 @@ set(PATTERNS
     state
     strategy
     template-method
+    visitor
 )
 
 foreach(_dir IN ITEMS ${PATTERNS})
