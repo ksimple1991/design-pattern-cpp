@@ -8,6 +8,7 @@ set(PATTERNS
     bridge
     builder
     chain-of-resposibility
+    command
     facade
     factory-method
     flyweight
