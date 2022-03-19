@@ -9,6 +9,7 @@ set(PATTERNS
     builder
     chain-of-resposibility
     command
+    composite
     facade
     factory-method
     flyweight
